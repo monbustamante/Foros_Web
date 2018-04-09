@@ -1,0 +1,141 @@
+@charset "utf-8"
+
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+p {
+	color: white;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	top: auto;
+}
+div{
+	margin: 3px auto;
+}
+
+.headerwords{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	top: auto;
+}
+
+body{
+	background-color: white;
+}
+
+footer{
+	background-color: #050514;
+}
+
+div div{
+	background-color: white;
+}
+
+#contenedor{
+	border-color: white;
+	background-color: white;
+}
+
+#top-bar{
+	width: 100%;
+	background-color: 83CCEB;
+}
+
+#logo{
+	background: url(Images/logo.png);
+	width: 100%;
+	height:10px;
+	border: #900 solid 2px;
+	background-position: center;
+	-webkit-background-size: cover;
+
+}
+
+#-main{
+	height: 8%;
+	width: 65%;
+	background-color: #83CCEB;
+	display: inline-flex;
+
+}
+
+#-ctas{
+	height: 8%;
+	width: 15%;
+	float: right;
+	background-color: #83CCEB;
+	display: inline-flex;
+}
+
+#content{
+	padding: 15%;
+	background-image:url(https://i1.wp.com/cdn.codemyui.com/wp-content/uploads/2016/11/Pure-CSS-Snow-Animation.gif);
+}
+
+#box{
+	border-color: teal;
+	background-color:  #1a001a;
+	background: url(Images/guacamaya.jpg) no-repeat center;
+}
+
+#footer{
+	 background: scroll #6D7A7F;
+}
+
+
+/* Boton sign up */
+a[href="signup.html"]:link, a[href="signup.html"]:visited {
+    background-color: ##9999ff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a[href="signup.html"]:hover, a[href="signup.html"]:active {
+    background-color: #babade;
+    color: pink;
+}
+
+/*Log in*/
+a[href="login.html"]:link, a[href="login.html"]:visited {
+
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a[href="login.html"]:hover, a[href="login.html"]:active {
+    color: ;
+}
+
+
+/* Menu principal */
+div[id="-main"] a:link, div[id="-main"] a:visited{
+	  color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+div[id="-main"] a:hover, div[id="-main"] a:active{
+	color: 83CCEB;
+	background-color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/**/
